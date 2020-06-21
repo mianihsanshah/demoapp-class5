@@ -9,7 +9,7 @@ const Child2 = () => {
     return(
         <div>
             <hr />
-            <h2>This is Second Child Using Counter Reducer</h2>
+            <h2>This is Second Child Using React's Reducer Hook</h2>
             <h4>Value of Reducer Counter is: {state}</h4>                 
             <button onClick={() => dispatch('INCREMENT')}>Increament Reducer Counter</button>
             <button onClick={() => dispatch('DECREMENT')}>Decreament Reducer Counter</button>
